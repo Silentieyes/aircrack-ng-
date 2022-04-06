@@ -75,3 +75,8 @@ service NetworkManager restart
 
 7. pyrit 
 git clone https://github.com/hacker3983/pyrit-installer && cd pyrit-installer && sudo bash install.sh
+    
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    
+    To remove locked files 
+    chmod a+rwx <filename>
