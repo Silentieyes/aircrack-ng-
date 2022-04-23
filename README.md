@@ -47,16 +47,19 @@ https://github.com/aircrack-ng/rtl8188eus
     reboot
 
 
+
 // enter monitor mode
 
-$ sudo airmon-ng check kill
-$ sudo ip link set <interface> down
-$ sudo iw dev <interface> set type monitor
+    $ sudo airmon-ng check kill
+    $ sudo ip link set <interface> down
+    $ sudo iw dev <interface> set type monitor
 
 //enter manage mode 
+    
+    $ sudo iw dev <interface> set type managed
+    service NetworkManager restart
 
-$ sudo iw dev <interface> set type managed
-service NetworkManager restart 
+
  ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
  
 
