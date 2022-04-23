@@ -59,24 +59,7 @@ $ sudo iw dev <interface> set type managed
 service NetworkManager restart 
  ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
  
- Things to do with kali linux
- 
- 1. nmap for information gathering. In other words, to get insights about the host, its IP address, OS detection, and similar network security details (like the number of open ports and what they are). firewall evasion and spoffing. 
- 
- 2. WPscan is WordPress security auditing tool.
- 
- 3. Hydra is for cracking login/password
- 
- 4. Maltego is an impressive data mining tool to analyze information online and connect the dots (if any). As per the information, it creates a directed graph to help analyze the link between those pieces of data. 
 
-5. Apktook is  reverse engineering Android apps. 
-
-6. Autopsy is a digital forensic tool to investigate what happened on your computer. Well, you can also use it to recover images from SD card. It is also being used by law enforcement officials. You can read the documentation to explore what you can do with it.
-
-7. pyrit 
-git clone https://github.com/hacker3983/pyrit-installer && cd pyrit-installer && sudo bash install.sh
-    
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     
     To remove locked files 
     chmod a+rwx <filename>
